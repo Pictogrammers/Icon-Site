@@ -29,7 +29,7 @@ SVGs can be downloaded individually and included the same way as any bitmap imag
 SVG's can be used inline in the HTML.
 
 ```html
-<svg style="width:24px;height:24px" viewbox="0 0 24 24">
+<svg style="width:24px;height:24px" viewBox="0 0 24 24">
   <path fill="#000000" d="M ... Z" /> <!-- account -->
 </svg>
 ```
@@ -37,7 +37,7 @@ SVG's can be used inline in the HTML.
 Inline SVGs can also be overlayed by adding additional paths.
 
 ```html
-<svg style="width:24px;height:24px" viewbox="0 0 24 24">
+<svg style="width:24px;height:24px" viewBox="0 0 24 24">
   <path fill="#000000" d="M ... Z" /> <!-- account -->
   <path fill="#990000" d="M ... Z" /> <!-- block-helper -->
 </svg>
